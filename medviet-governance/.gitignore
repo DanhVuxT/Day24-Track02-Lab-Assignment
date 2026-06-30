@@ -1,0 +1,6 @@
+.vault_key
+data/raw/*.csv
+__pycache__/
+.pytest_cache/
+*.pyc
+reports/*.tmp

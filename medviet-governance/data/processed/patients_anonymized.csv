@@ -1,0 +1,201 @@
+patient_id,ho_ten,cccd,ngay_sinh,so_dien_thoai,email,dia_chi,benh,ket_qua_xet_nghiem,bac_si_phu_trach,ngay_kham
+bdd640fb-0667-4ad1-9c80-317fa3b1799d,Patient 0001,999000000001,REDACTED_DATE,0900000001,patient0001@example.invalid,Redacted address 0001,Khỏe mạnh,5.37,Doctor 0001,31/01/2026
+562b0f79-c374-49ee-b50b-ea63371ecd7b,Patient 0002,999000000002,REDACTED_DATE,0900000002,patient0002@example.invalid,Redacted address 0002,Tiểu đường,11.77,Doctor 0002,18/06/2026
+7412b293-4729-4739-a14f-f3d719db3ad0,Patient 0003,999000000003,REDACTED_DATE,0900000003,patient0003@example.invalid,Redacted address 0003,Tim mạch,5.28,Doctor 0003,20/06/2026
+a7cad415-366e-416f-908e-bad7b7c93acf,Patient 0004,999000000004,REDACTED_DATE,0900000004,patient0004@example.invalid,Redacted address 0004,Tim mạch,5.31,Doctor 0004,26/04/2026
+988c24c9-61b1-4d22-a280-1c4510435a10,Patient 0005,999000000005,REDACTED_DATE,0900000005,patient0005@example.invalid,Redacted address 0005,Tiểu đường,4.8,Doctor 0005,05/04/2026
+5cec4eb5-edd9-4831-9ca3-5cfb04fc6d82,Patient 0006,999000000006,REDACTED_DATE,0900000006,patient0006@example.invalid,Redacted address 0006,Tiểu đường,11.61,Doctor 0006,27/03/2026
+1efa2197-7394-488f-847f-d9b4e64d1bcb,Patient 0007,999000000007,REDACTED_DATE,0900000007,patient0007@example.invalid,Redacted address 0007,Tim mạch,5.54,Doctor 0007,06/02/2026
+6e595ed3-a8b3-47fa-98d0-752b1825bc54,Patient 0008,999000000008,REDACTED_DATE,0900000008,patient0008@example.invalid,Redacted address 0008,Tim mạch,7.22,Doctor 0008,12/06/2026
+ed2662e9-17e0-41b7-b810-238303c72ba8,Patient 0009,999000000009,REDACTED_DATE,0900000009,patient0009@example.invalid,Redacted address 0009,Huyết áp cao,5.87,Doctor 0009,12/01/2026
+80bacd64-7a0e-4fea-958c-a9ba0cd620c2,Patient 0010,999000000010,REDACTED_DATE,0900000010,patient0010@example.invalid,Redacted address 0010,Khỏe mạnh,9.69,Doctor 0010,26/01/2026
+750cab75-4ccc-4bc2-a53f-8a28abf3e3fc,Patient 0011,999000000011,REDACTED_DATE,0900000011,patient0011@example.invalid,Redacted address 0011,Huyết áp cao,6.95,Doctor 0011,31/01/2026
+35ebd32d-9ad6-40ab-8821-2ddb45b89cd9,Patient 0012,999000000012,REDACTED_DATE,0900000012,patient0012@example.invalid,Redacted address 0012,Tiểu đường,9.86,Doctor 0012,25/01/2026
+e623a689-5d59-4d2a-8eea-04e70ab54bde,Patient 0013,999000000013,REDACTED_DATE,0900000013,patient0013@example.invalid,Redacted address 0013,Tiểu đường,8.76,Doctor 0013,31/01/2026
+61ee411a-1bac-47a7-b386-f7a4c991603f,Patient 0014,999000000014,REDACTED_DATE,0900000014,patient0014@example.invalid,Redacted address 0014,Tiểu đường,8.07,Doctor 0014,23/01/2026
+2db69edb-42de-4fcc-b86c-2ca2e08596db,Patient 0015,999000000015,REDACTED_DATE,0900000015,patient0015@example.invalid,Redacted address 0015,Tiểu đường,9.81,Doctor 0015,02/03/2026
+6703b636-5380-4904-a88c-7015aab97e49,Patient 0016,999000000016,REDACTED_DATE,0900000016,patient0016@example.invalid,Redacted address 0016,Khỏe mạnh,8.19,Doctor 0016,04/06/2026
+bc67f831-cbc8-4759-b5b7-8cc7e6b3c944,Patient 0017,999000000017,REDACTED_DATE,0900000017,patient0017@example.invalid,Redacted address 0017,Tiểu đường,6.51,Doctor 0017,12/02/2026
+b227462c-f53d-4330-8dda-24ba2d06e8cf,Patient 0018,999000000018,REDACTED_DATE,0900000018,patient0018@example.invalid,Redacted address 0018,Khỏe mạnh,6.47,Doctor 0018,05/04/2026
+709b7d97-464c-44af-bd3f-3799a07295e9,Patient 0019,999000000019,REDACTED_DATE,0900000019,patient0019@example.invalid,Redacted address 0019,Tiểu đường,8.57,Doctor 0019,16/05/2026
+c3fe0183-e172-4725-9b52-ca5805000bc6,Patient 0020,999000000020,REDACTED_DATE,0900000020,patient0020@example.invalid,Redacted address 0020,Tim mạch,9.14,Doctor 0020,28/06/2026
+88bc539c-9f4c-4b79-bb10-987f20ac3703,Patient 0021,999000000021,REDACTED_DATE,0900000021,patient0021@example.invalid,Redacted address 0021,Tim mạch,5.29,Doctor 0021,26/05/2026
+f3b1025b-fff9-4585-8d55-7b618a175dfe,Patient 0022,999000000022,REDACTED_DATE,0900000022,patient0022@example.invalid,Redacted address 0022,Tiểu đường,3.89,Doctor 0022,21/01/2026
+4fdc6e1b-edcb-4cb6-8692-dc639424aed5,Patient 0023,999000000023,REDACTED_DATE,0900000023,patient0023@example.invalid,Redacted address 0023,Huyết áp cao,11.3,Doctor 0023,04/02/2026
+a6846099-f729-4951-8591-31d2bbda0242,Patient 0024,999000000024,REDACTED_DATE,0900000024,patient0024@example.invalid,Redacted address 0024,Khỏe mạnh,8.83,Doctor 0024,10/03/2026
+4797b2c9-5720-4246-8223-623bcc3ebdde,Patient 0025,999000000025,REDACTED_DATE,0900000025,patient0025@example.invalid,Redacted address 0025,Khỏe mạnh,7.03,Doctor 0025,13/03/2026
+58007c02-87ea-4ff5-8db0-674679279973,Patient 0026,999000000026,REDACTED_DATE,0900000026,patient0026@example.invalid,Redacted address 0026,Khỏe mạnh,3.75,Doctor 0026,03/01/2026
+4639447b-2067-4dac-88bd-13d1b540b30e,Patient 0027,999000000027,REDACTED_DATE,0900000027,patient0027@example.invalid,Redacted address 0027,Huyết áp cao,7.36,Doctor 0027,30/01/2026
+f2f9e5fa-9016-4161-8fa7-01cd2631d00b,Patient 0028,999000000028,REDACTED_DATE,0900000028,patient0028@example.invalid,Redacted address 0028,Huyết áp cao,7.53,Doctor 0028,03/02/2026
+00af5b3a-2812-459a-9337-739e8d4f5d27,Patient 0029,999000000029,REDACTED_DATE,0900000029,patient0029@example.invalid,Redacted address 0029,Huyết áp cao,4.37,Doctor 0029,12/01/2026
+9854ce4e-4ebf-45c3-8ae9-b4a72a79ea68,Patient 0030,999000000030,REDACTED_DATE,0900000030,patient0030@example.invalid,Redacted address 0030,Huyết áp cao,9.74,Doctor 0030,22/04/2026
+2cd94cbb-c19a-458c-835b-1c8c0a4c9f7f,Patient 0031,999000000031,REDACTED_DATE,0900000031,patient0031@example.invalid,Redacted address 0031,Tim mạch,5.05,Doctor 0031,03/03/2026
+f85e06a1-1dad-49b2-92c2-1221409d3602,Patient 0032,999000000032,REDACTED_DATE,0900000032,patient0032@example.invalid,Redacted address 0032,Tiểu đường,6.0,Doctor 0032,05/06/2026
+4f8d5238-288b-48b5-b5b4-53ca3d42993c,Patient 0033,999000000033,REDACTED_DATE,0900000033,patient0033@example.invalid,Redacted address 0033,Tiểu đường,9.81,Doctor 0033,09/04/2026
+dd30de89-22f2-45f2-a11b-868dbf0d073d,Patient 0034,999000000034,REDACTED_DATE,0900000034,patient0034@example.invalid,Redacted address 0034,Tiểu đường,8.2,Doctor 0034,09/01/2026
+b489d070-7914-48a8-bea4-ff31517400f8,Patient 0035,999000000035,REDACTED_DATE,0900000035,patient0035@example.invalid,Redacted address 0035,Huyết áp cao,4.77,Doctor 0035,02/05/2026
+7cea2045-c268-483e-a32f-2e63b7fddd71,Patient 0036,999000000036,REDACTED_DATE,0900000036,patient0036@example.invalid,Redacted address 0036,Tiểu đường,8.68,Doctor 0036,20/04/2026
+2b840c67-2e18-4554-8ae2-8e66ae8a7813,Patient 0037,999000000037,REDACTED_DATE,0900000037,patient0037@example.invalid,Redacted address 0037,Khỏe mạnh,4.11,Doctor 0037,14/06/2026
+627b41a1-ffd6-4232-b2ff-e2944d57d880,Patient 0038,999000000038,REDACTED_DATE,0900000038,patient0038@example.invalid,Redacted address 0038,Tim mạch,9.45,Doctor 0038,01/03/2026
+945ef2e4-088a-43ec-b0d9-c9f8c9e26074,Patient 0039,999000000039,REDACTED_DATE,0900000039,patient0039@example.invalid,Redacted address 0039,Huyết áp cao,7.5,Doctor 0039,28/01/2026
+dc322c97-39c1-4262-b76c-8edec1101266,Patient 0040,999000000040,REDACTED_DATE,0900000040,patient0040@example.invalid,Redacted address 0040,Khỏe mạnh,4.25,Doctor 0040,04/05/2026
+b379cb1e-e8cd-40cc-b6da-3ca0d2e82f38,Patient 0041,999000000041,REDACTED_DATE,0900000041,patient0041@example.invalid,Redacted address 0041,Tim mạch,7.22,Doctor 0041,21/03/2026
+08601833-479d-4cda-b396-ea37f065c817,Patient 0042,999000000042,REDACTED_DATE,0900000042,patient0042@example.invalid,Redacted address 0042,Khỏe mạnh,10.6,Doctor 0042,10/02/2026
+dea45c19-d024-4d72-b748-967f961d33ba,Patient 0043,999000000043,REDACTED_DATE,0900000043,patient0043@example.invalid,Redacted address 0043,Khỏe mạnh,10.85,Doctor 0043,13/04/2026
+79eb4168-1045-46e5-bee3-eb791d181ee9,Patient 0044,999000000044,REDACTED_DATE,0900000044,patient0044@example.invalid,Redacted address 0044,Huyết áp cao,7.71,Doctor 0044,25/01/2026
+95da75c1-a211-40f9-9fd3-4579466772ce,Patient 0045,999000000045,REDACTED_DATE,0900000045,patient0045@example.invalid,Redacted address 0045,Tim mạch,10.74,Doctor 0045,14/03/2026
+ec48bf55-afd3-40c4-a713-582cf41ea3ac,Patient 0046,999000000046,REDACTED_DATE,0900000046,patient0046@example.invalid,Redacted address 0046,Tiểu đường,5.99,Doctor 0046,10/03/2026
+36760ce5-81e5-49f6-93f2-77cc1a85910d,Patient 0047,999000000047,REDACTED_DATE,0900000047,patient0047@example.invalid,Redacted address 0047,Khỏe mạnh,5.67,Doctor 0047,14/01/2026
+f8c88fae-a217-4f84-bdb0-25ff2451e5a4,Patient 0048,999000000048,REDACTED_DATE,0900000048,patient0048@example.invalid,Redacted address 0048,Tim mạch,8.39,Doctor 0048,23/02/2026
+1d2324e6-8329-40b7-8143-f426372f871a,Patient 0049,999000000049,REDACTED_DATE,0900000049,patient0049@example.invalid,Redacted address 0049,Khỏe mạnh,3.78,Doctor 0049,17/05/2026
+d556b37d-8f08-41ee-8011-316b3ae88926,Patient 0050,999000000050,REDACTED_DATE,0900000050,patient0050@example.invalid,Redacted address 0050,Tiểu đường,4.7,Doctor 0050,17/02/2026
+862268d1-6683-4107-96c0-44d06f887f28,Patient 0051,999000000051,REDACTED_DATE,0900000051,patient0051@example.invalid,Redacted address 0051,Tim mạch,11.28,Doctor 0051,28/05/2026
+2d5972c6-134a-4a2f-a7cf-705cc257cf73,Patient 0052,999000000052,REDACTED_DATE,0900000052,patient0052@example.invalid,Redacted address 0052,Huyết áp cao,11.03,Doctor 0052,15/01/2026
+daf481a7-fa34-42e8-9d3f-7d7ea508dc95,Patient 0053,999000000053,REDACTED_DATE,0900000053,patient0053@example.invalid,Redacted address 0053,Khỏe mạnh,4.28,Doctor 0053,18/02/2026
+707df251-fdb1-429e-b010-ed13b526b22d,Patient 0054,999000000054,REDACTED_DATE,0900000054,patient0054@example.invalid,Redacted address 0054,Huyết áp cao,8.09,Doctor 0054,26/01/2026
+15b02530-f020-4992-b576-255e98549f22,Patient 0055,999000000055,REDACTED_DATE,0900000055,patient0055@example.invalid,Redacted address 0055,Tiểu đường,7.34,Doctor 0055,12/06/2026
+09a9d1c1-86ca-46f4-a238-fe93bd17c5e8,Patient 0056,999000000056,REDACTED_DATE,0900000056,patient0056@example.invalid,Redacted address 0056,Tim mạch,8.81,Doctor 0056,02/03/2026
+78116802-c8cc-4cfe-8f01-f944f7315749,Patient 0057,999000000057,REDACTED_DATE,0900000057,patient0057@example.invalid,Redacted address 0057,Khỏe mạnh,7.04,Doctor 0057,29/05/2026
+e7c225da-7306-4588-85d5-a68d290a3abb,Patient 0058,999000000058,REDACTED_DATE,0900000058,patient0058@example.invalid,Redacted address 0058,Tim mạch,9.2,Doctor 0058,28/05/2026
+9d8776a0-72d7-4bdd-b817-99ffb49e04cc,Patient 0059,999000000059,REDACTED_DATE,0900000059,patient0059@example.invalid,Redacted address 0059,Huyết áp cao,10.36,Doctor 0059,16/02/2026
+6de299a1-4a90-4d0c-a4c1-73b9b7f28572,Patient 0060,999000000060,REDACTED_DATE,0900000060,patient0060@example.invalid,Redacted address 0060,Tiểu đường,9.84,Doctor 0060,08/03/2026
+a0d572c8-a837-4e68-bba2-05ca3dba6da8,Patient 0061,999000000061,REDACTED_DATE,0900000061,patient0061@example.invalid,Redacted address 0061,Khỏe mạnh,8.66,Doctor 0061,22/06/2026
+4f612217-eef1-4694-90ca-e32d0aba590e,Patient 0062,999000000062,REDACTED_DATE,0900000062,patient0062@example.invalid,Redacted address 0062,Huyết áp cao,10.02,Doctor 0062,05/06/2026
+14348f62-6cac-428c-ba22-006515260718,Patient 0063,999000000063,REDACTED_DATE,0900000063,patient0063@example.invalid,Redacted address 0063,Tiểu đường,10.83,Doctor 0063,11/05/2026
+83599af6-5d01-455f-a7fd-64c4a334058a,Patient 0064,999000000064,REDACTED_DATE,0900000064,patient0064@example.invalid,Redacted address 0064,Tiểu đường,6.86,Doctor 0064,13/04/2026
+a6499cdc-507b-4072-a5e5-8f345df06e8c,Patient 0065,999000000065,REDACTED_DATE,0900000065,patient0065@example.invalid,Redacted address 0065,Huyết áp cao,9.96,Doctor 0065,10/05/2026
+8ccc9cea-109f-48ee-b5a4-720058f0dd23,Patient 0066,999000000066,REDACTED_DATE,0900000066,patient0066@example.invalid,Redacted address 0066,Tiểu đường,6.14,Doctor 0066,15/01/2026
+a4704d48-5128-49b1-b8ed-e0ca20156a72,Patient 0067,999000000067,REDACTED_DATE,0900000067,patient0067@example.invalid,Redacted address 0067,Huyết áp cao,11.64,Doctor 0067,18/02/2026
+8d03f17a-f4d3-45c1-a293-19fa3240d7a1,Patient 0068,999000000068,REDACTED_DATE,0900000068,patient0068@example.invalid,Redacted address 0068,Tiểu đường,10.21,Doctor 0068,26/02/2026
+7ba24588-4d56-4a3d-b4e7-069aa4540937,Patient 0069,999000000069,REDACTED_DATE,0900000069,patient0069@example.invalid,Redacted address 0069,Khỏe mạnh,8.97,Doctor 0069,01/04/2026
+3f779cae-7318-496d-8479-06121f5d988f,Patient 0070,999000000070,REDACTED_DATE,0900000070,patient0070@example.invalid,Redacted address 0070,Tiểu đường,9.13,Doctor 0070,10/03/2026
+7eb162f1-4806-4804-8cf0-374c0c74dc0f,Patient 0071,999000000071,REDACTED_DATE,0900000071,patient0071@example.invalid,Redacted address 0071,Tim mạch,11.71,Doctor 0071,24/01/2026
+64d6dfbf-18c0-4e2b-b99f-070420f0156a,Patient 0072,999000000072,REDACTED_DATE,0900000072,patient0072@example.invalid,Redacted address 0072,Tiểu đường,5.92,Doctor 0072,09/04/2026
+7d66971e-8847-4c56-827c-9f8cd40ac5e9,Patient 0073,999000000073,REDACTED_DATE,0900000073,patient0073@example.invalid,Redacted address 0073,Tiểu đường,6.21,Doctor 0073,22/04/2026
+30d73df7-1c22-4cea-b355-56a5f2bd92f2,Patient 0074,999000000074,REDACTED_DATE,0900000074,patient0074@example.invalid,Redacted address 0074,Tiểu đường,10.1,Doctor 0074,12/05/2026
+ae455cc6-b88e-430f-9e1e-994ac5a11f5c,Patient 0075,999000000075,REDACTED_DATE,0900000075,patient0075@example.invalid,Redacted address 0075,Tim mạch,5.54,Doctor 0075,26/02/2026
+b6d1f6bb-f48f-409c-89a2-24410ac4de85,Patient 0076,999000000076,REDACTED_DATE,0900000076,patient0076@example.invalid,Redacted address 0076,Tim mạch,5.55,Doctor 0076,02/01/2026
+edd97a1a-fa58-4b27-8ce3-e7c3f6eab3a0,Patient 0077,999000000077,REDACTED_DATE,0900000077,patient0077@example.invalid,Redacted address 0077,Tim mạch,11.43,Doctor 0077,20/06/2026
+9165f2ed-4c63-4e95-825f-55430997623a,Patient 0078,999000000078,REDACTED_DATE,0900000078,patient0078@example.invalid,Redacted address 0078,Khỏe mạnh,6.62,Doctor 0078,10/06/2026
+1634725b-53f3-4073-83e9-6ef46d7df5d0,Patient 0079,999000000079,REDACTED_DATE,0900000079,patient0079@example.invalid,Redacted address 0079,Tim mạch,7.3,Doctor 0079,01/04/2026
+afa28559-67c9-4204-a8e3-33b64e8adc4b,Patient 0080,999000000080,REDACTED_DATE,0900000080,patient0080@example.invalid,Redacted address 0080,Tiểu đường,8.64,Doctor 0080,25/06/2026
+89628f6e-929c-43b3-b3c0-8bf18167999f,Patient 0081,999000000081,REDACTED_DATE,0900000081,patient0081@example.invalid,Redacted address 0081,Tim mạch,10.09,Doctor 0081,23/04/2026
+58330b30-6c77-4e95-8b98-1ccd12b2102d,Patient 0082,999000000082,REDACTED_DATE,0900000082,patient0082@example.invalid,Redacted address 0082,Huyết áp cao,10.25,Doctor 0082,15/04/2026
+ba54e920-2099-4180-8762-3997649f7d88,Patient 0083,999000000083,REDACTED_DATE,0900000083,patient0083@example.invalid,Redacted address 0083,Khỏe mạnh,10.04,Doctor 0083,07/01/2026
+b40a9181-ac09-4db7-9908-6e477249f62c,Patient 0084,999000000084,REDACTED_DATE,0900000084,patient0084@example.invalid,Redacted address 0084,Huyết áp cao,4.88,Doctor 0084,12/01/2026
+e134edfc-9777-4f10-b2d2-393f8e85140d,Patient 0085,999000000085,REDACTED_DATE,0900000085,patient0085@example.invalid,Redacted address 0085,Tim mạch,10.66,Doctor 0085,17/02/2026
+a58e83dd-548c-4d84-b40d-e04941476506,Patient 0086,999000000086,REDACTED_DATE,0900000086,patient0086@example.invalid,Redacted address 0086,Tiểu đường,9.35,Doctor 0086,27/06/2026
+b42a2d93-9aba-4f15-b214-90623e1a963e,Patient 0087,999000000087,REDACTED_DATE,0900000087,patient0087@example.invalid,Redacted address 0087,Tiểu đường,5.77,Doctor 0087,04/01/2026
+95831d58-ef4c-4119-8da5-d39b42c21797,Patient 0088,999000000088,REDACTED_DATE,0900000088,patient0088@example.invalid,Redacted address 0088,Tiểu đường,4.27,Doctor 0088,12/06/2026
+d1682e09-f1f7-4904-9307-5157d8c128e7,Patient 0089,999000000089,REDACTED_DATE,0900000089,patient0089@example.invalid,Redacted address 0089,Khỏe mạnh,6.61,Doctor 0089,21/05/2026
+49646b96-fa3c-4628-8926-21df465568b7,Patient 0090,999000000090,REDACTED_DATE,0900000090,patient0090@example.invalid,Redacted address 0090,Tim mạch,8.24,Doctor 0090,19/01/2026
+8d7dd772-608e-4f5c-a117-727067c0518b,Patient 0091,999000000091,REDACTED_DATE,0900000091,patient0091@example.invalid,Redacted address 0091,Tim mạch,4.88,Doctor 0091,08/05/2026
+d9b59f84-edc3-41c3-adea-2d2d086c405f,Patient 0092,999000000092,REDACTED_DATE,0900000092,patient0092@example.invalid,Redacted address 0092,Tim mạch,11.72,Doctor 0092,30/05/2026
+658e54a2-9879-4f35-b471-99869d264599,Patient 0093,999000000093,REDACTED_DATE,0900000093,patient0093@example.invalid,Redacted address 0093,Khỏe mạnh,9.37,Doctor 0093,02/01/2026
+5c238d8d-71da-45b9-8eea-9db8f165d779,Patient 0094,999000000094,REDACTED_DATE,0900000094,patient0094@example.invalid,Redacted address 0094,Khỏe mạnh,5.13,Doctor 0094,25/06/2026
+926bffa5-3e24-4fbf-ba69-8cd2fe2390f3,Patient 0095,999000000095,REDACTED_DATE,0900000095,patient0095@example.invalid,Redacted address 0095,Huyết áp cao,5.97,Doctor 0095,06/03/2026
+cdd7f460-6140-47d3-9ec4-ea48d773f98d,Patient 0096,999000000096,REDACTED_DATE,0900000096,patient0096@example.invalid,Redacted address 0096,Huyết áp cao,3.95,Doctor 0096,06/01/2026
+f166cdcf-762c-4fbc-ba2a-a7baf3f81c31,Patient 0097,999000000097,REDACTED_DATE,0900000097,patient0097@example.invalid,Redacted address 0097,Huyết áp cao,7.05,Doctor 0097,17/05/2026
+98049562-8972-4bbd-8ff2-b1c4e53f9644,Patient 0098,999000000098,REDACTED_DATE,0900000098,patient0098@example.invalid,Redacted address 0098,Tim mạch,5.14,Doctor 0098,04/04/2026
+eba900e1-6a7d-4d96-8ba1-72331ac3bf31,Patient 0099,999000000099,REDACTED_DATE,0900000099,patient0099@example.invalid,Redacted address 0099,Huyết áp cao,7.56,Doctor 0099,18/04/2026
+6d268b37-8f52-42d3-94bb-bcf828fea761,Patient 0100,999000000100,REDACTED_DATE,0900000100,patient0100@example.invalid,Redacted address 0100,Tim mạch,9.37,Doctor 0100,30/03/2026
+dcd5bfae-abb3-46a7-8329-97801d2c2721,Patient 0101,999000000101,REDACTED_DATE,0900000101,patient0101@example.invalid,Redacted address 0101,Tim mạch,4.16,Doctor 0101,26/04/2026
+6c4c450b-623a-40fc-9326-7d25234b4562,Patient 0102,999000000102,REDACTED_DATE,0900000102,patient0102@example.invalid,Redacted address 0102,Khỏe mạnh,4.62,Doctor 0102,18/05/2026
+2ad11fe8-7d1b-495e-b1a0-449dd703262f,Patient 0103,999000000103,REDACTED_DATE,0900000103,patient0103@example.invalid,Redacted address 0103,Khỏe mạnh,3.77,Doctor 0103,27/02/2026
+7321a8b2-0840-405a-bfd2-f491dff389aa,Patient 0104,999000000104,REDACTED_DATE,0900000104,patient0104@example.invalid,Redacted address 0104,Tiểu đường,11.82,Doctor 0104,02/02/2026
+4aea1b8f-b43c-4e0a-ba9f-c10e52daf681,Patient 0105,999000000105,REDACTED_DATE,0900000105,patient0105@example.invalid,Redacted address 0105,Tiểu đường,7.29,Doctor 0105,20/03/2026
+b1d81887-4739-4c7b-bff3-0c8d83ff3e96,Patient 0106,999000000106,REDACTED_DATE,0900000106,patient0106@example.invalid,Redacted address 0106,Huyết áp cao,7.02,Doctor 0106,20/01/2026
+75a72686-d632-4d31-88ac-ffcfa04d4d14,Patient 0107,999000000107,REDACTED_DATE,0900000107,patient0107@example.invalid,Redacted address 0107,Huyết áp cao,10.72,Doctor 0107,21/05/2026
+6de21429-3bf0-49c1-8156-e501b30e96e8,Patient 0108,999000000108,REDACTED_DATE,0900000108,patient0108@example.invalid,Redacted address 0108,Tiểu đường,5.78,Doctor 0108,13/03/2026
+61fa01ba-231a-47c7-8c9b-ff5ce1887eaf,Patient 0109,999000000109,REDACTED_DATE,0900000109,patient0109@example.invalid,Redacted address 0109,Huyết áp cao,8.19,Doctor 0109,06/05/2026
+99db1302-8dab-46d3-bf87-dfc2159152f2,Patient 0110,999000000110,REDACTED_DATE,0900000110,patient0110@example.invalid,Redacted address 0110,Huyết áp cao,3.64,Doctor 0110,30/05/2026
+1149d096-965d-444f-8445-c1a812af97e4,Patient 0111,999000000111,REDACTED_DATE,0900000111,patient0111@example.invalid,Redacted address 0111,Huyết áp cao,4.69,Doctor 0111,04/05/2026
+ae59aa52-a65b-422b-95a3-86d9c362a810,Patient 0112,999000000112,REDACTED_DATE,0900000112,patient0112@example.invalid,Redacted address 0112,Khỏe mạnh,9.1,Doctor 0112,25/01/2026
+44cdbfdd-df9b-441e-87f7-bda1bff15840,Patient 0113,999000000113,REDACTED_DATE,0900000113,patient0113@example.invalid,Redacted address 0113,Tim mạch,10.43,Doctor 0113,14/02/2026
+0b461173-00a8-4473-8242-5912bda3c162,Patient 0114,999000000114,REDACTED_DATE,0900000114,patient0114@example.invalid,Redacted address 0114,Tiểu đường,7.75,Doctor 0114,06/06/2026
+f43e8c48-0bc1-49e5-bb3d-f0638409c5ea,Patient 0115,999000000115,REDACTED_DATE,0900000115,patient0115@example.invalid,Redacted address 0115,Huyết áp cao,9.89,Doctor 0115,05/01/2026
+a2cd1590-58af-493c-8aa2-b4c93ba5bd76,Patient 0116,999000000116,REDACTED_DATE,0900000116,patient0116@example.invalid,Redacted address 0116,Khỏe mạnh,11.74,Doctor 0116,21/04/2026
+f6d70248-a995-4cc3-af5b-09a60ff1c51f,Patient 0117,999000000117,REDACTED_DATE,0900000117,patient0117@example.invalid,Redacted address 0117,Khỏe mạnh,9.55,Doctor 0117,30/05/2026
+769de1e3-4eed-4124-b3b0-d6763527a5c8,Patient 0118,999000000118,REDACTED_DATE,0900000118,patient0118@example.invalid,Redacted address 0118,Tiểu đường,3.72,Doctor 0118,06/06/2026
+030f9be9-1f17-4f93-a3c9-7a1ecb371d97,Patient 0119,999000000119,REDACTED_DATE,0900000119,patient0119@example.invalid,Redacted address 0119,Tim mạch,5.78,Doctor 0119,10/01/2026
+6ee35607-92ea-4324-ac93-e5962b015723,Patient 0120,999000000120,REDACTED_DATE,0900000120,patient0120@example.invalid,Redacted address 0120,Khỏe mạnh,6.32,Doctor 0120,23/03/2026
+cc152a1b-e278-4642-a484-e035330faaa3,Patient 0121,999000000121,REDACTED_DATE,0900000121,patient0121@example.invalid,Redacted address 0121,Tim mạch,6.7,Doctor 0121,21/02/2026
+ead18464-ca8e-458c-90f8-1063889fe107,Patient 0122,999000000122,REDACTED_DATE,0900000122,patient0122@example.invalid,Redacted address 0122,Huyết áp cao,9.58,Doctor 0122,15/02/2026
+86c5547c-051a-4039-b803-dcee9a069295,Patient 0123,999000000123,REDACTED_DATE,0900000123,patient0123@example.invalid,Redacted address 0123,Tiểu đường,8.29,Doctor 0123,31/01/2026
+cab63107-6fd6-4b3a-b2dd-9456bb7b6c05,Patient 0124,999000000124,REDACTED_DATE,0900000124,patient0124@example.invalid,Redacted address 0124,Tim mạch,11.98,Doctor 0124,06/03/2026
+58c88c48-3ced-4d1f-93eb-22c9beced21a,Patient 0125,999000000125,REDACTED_DATE,0900000125,patient0125@example.invalid,Redacted address 0125,Tim mạch,3.88,Doctor 0125,10/06/2026
+93fb71d0-dd32-4d9c-89ea-356a7abfcebf,Patient 0126,999000000126,REDACTED_DATE,0900000126,patient0126@example.invalid,Redacted address 0126,Huyết áp cao,7.32,Doctor 0126,09/02/2026
+b27b7bb4-68c6-40b2-b0a2-cee8f9722cc1,Patient 0127,999000000127,REDACTED_DATE,0900000127,patient0127@example.invalid,Redacted address 0127,Khỏe mạnh,8.7,Doctor 0127,16/01/2026
+4ef03f80-1d91-4e39-9801-4004793bed1b,Patient 0128,999000000128,REDACTED_DATE,0900000128,patient0128@example.invalid,Redacted address 0128,Khỏe mạnh,7.06,Doctor 0128,14/02/2026
+6319629b-d73e-4bb9-8f9c-a17b8db8dadf,Patient 0129,999000000129,REDACTED_DATE,0900000129,patient0129@example.invalid,Redacted address 0129,Huyết áp cao,5.16,Doctor 0129,13/05/2026
+d2938e6e-ff4d-4930-b3b0-fb536f75ee8a,Patient 0130,999000000130,REDACTED_DATE,0900000130,patient0130@example.invalid,Redacted address 0130,Khỏe mạnh,8.31,Doctor 0130,01/06/2026
+de12dbf1-493d-4196-8926-a02119da8262,Patient 0131,999000000131,REDACTED_DATE,0900000131,patient0131@example.invalid,Redacted address 0131,Tim mạch,10.83,Doctor 0131,13/06/2026
+af527666-b239-49f4-9bb5-46457ddac1b6,Patient 0132,999000000132,REDACTED_DATE,0900000132,patient0132@example.invalid,Redacted address 0132,Huyết áp cao,6.25,Doctor 0132,07/02/2026
+d6441a9d-3362-4476-953a-e57fe00bd534,Patient 0133,999000000133,REDACTED_DATE,0900000133,patient0133@example.invalid,Redacted address 0133,Khỏe mạnh,6.69,Doctor 0133,09/03/2026
+e4fd6c34-d670-4a21-a9dc-073e5820b3f2,Patient 0134,999000000134,REDACTED_DATE,0900000134,patient0134@example.invalid,Redacted address 0134,Tim mạch,6.24,Doctor 0134,29/04/2026
+b676291d-4e32-4b4b-b168-c605ce1a1669,Patient 0135,999000000135,REDACTED_DATE,0900000135,patient0135@example.invalid,Redacted address 0135,Tim mạch,4.85,Doctor 0135,20/02/2026
+e4729be5-f3c2-444a-b60a-3dcca7f77451,Patient 0136,999000000136,REDACTED_DATE,0900000136,patient0136@example.invalid,Redacted address 0136,Khỏe mạnh,3.58,Doctor 0136,08/06/2026
+b69f5eab-b9ff-4c29-97d9-cbb0309e47ba,Patient 0137,999000000137,REDACTED_DATE,0900000137,patient0137@example.invalid,Redacted address 0137,Tiểu đường,8.69,Doctor 0137,24/04/2026
+1e26ed31-d9e9-4758-b6b9-04364b46ef33,Patient 0138,999000000138,REDACTED_DATE,0900000138,patient0138@example.invalid,Redacted address 0138,Tiểu đường,5.61,Doctor 0138,01/06/2026
+a18b5d15-5527-4407-bcd2-192f14b00f62,Patient 0139,999000000139,REDACTED_DATE,0900000139,patient0139@example.invalid,Redacted address 0139,Tiểu đường,7.99,Doctor 0139,22/05/2026
+e45a87e8-039a-4ed5-b337-b2615f8392d5,Patient 0140,999000000140,REDACTED_DATE,0900000140,patient0140@example.invalid,Redacted address 0140,Tim mạch,8.84,Doctor 0140,25/06/2026
+303cb04b-c007-4336-9bf7-dda17d7c59a5,Patient 0141,999000000141,REDACTED_DATE,0900000141,patient0141@example.invalid,Redacted address 0141,Tim mạch,9.44,Doctor 0141,15/03/2026
+797209c0-40b3-44f8-8c1a-b2c71fa3ed1f,Patient 0142,999000000142,REDACTED_DATE,0900000142,patient0142@example.invalid,Redacted address 0142,Tim mạch,4.92,Doctor 0142,11/03/2026
+290e3e89-4b9c-42f4-a8e5-c8cdb4146e4a,Patient 0143,999000000143,REDACTED_DATE,0900000143,patient0143@example.invalid,Redacted address 0143,Huyết áp cao,5.67,Doctor 0143,20/01/2026
+0a190939-dfc7-4b26-acb9-41fcd02c75f9,Patient 0144,999000000144,REDACTED_DATE,0900000144,patient0144@example.invalid,Redacted address 0144,Khỏe mạnh,11.28,Doctor 0144,14/05/2026
+6bf7240f-ccc6-4fed-ba6e-43d0d9c59cd9,Patient 0145,999000000145,REDACTED_DATE,0900000145,patient0145@example.invalid,Redacted address 0145,Tiểu đường,6.64,Doctor 0145,08/05/2026
+de4b061e-b45e-4463-832a-09e05071e5f0,Patient 0146,999000000146,REDACTED_DATE,0900000146,patient0146@example.invalid,Redacted address 0146,Tiểu đường,9.95,Doctor 0146,24/02/2026
+8ced4707-3903-4b65-81c6-1eeb0ce3c8c8,Patient 0147,999000000147,REDACTED_DATE,0900000147,patient0147@example.invalid,Redacted address 0147,Huyết áp cao,8.92,Doctor 0147,03/06/2026
+a335b2c8-9e7b-4e95-b692-641a9aad10ce,Patient 0148,999000000148,REDACTED_DATE,0900000148,patient0148@example.invalid,Redacted address 0148,Tiểu đường,4.82,Doctor 0148,09/01/2026
+23f47a55-7e0f-40b2-aa06-1609e599bd3c,Patient 0149,999000000149,REDACTED_DATE,0900000149,patient0149@example.invalid,Redacted address 0149,Huyết áp cao,4.28,Doctor 0149,23/05/2026
+6ecca931-ef70-4d01-8da0-3d880c6f3051,Patient 0150,999000000150,REDACTED_DATE,0900000150,patient0150@example.invalid,Redacted address 0150,Huyết áp cao,4.61,Doctor 0150,17/06/2026
+ef7db821-bca0-458e-b63d-65d5505c7527,Patient 0151,999000000151,REDACTED_DATE,0900000151,patient0151@example.invalid,Redacted address 0151,Khỏe mạnh,7.72,Doctor 0151,05/01/2026
+ab95c72f-0d95-4af5-a534-21bc6180b78a,Patient 0152,999000000152,REDACTED_DATE,0900000152,patient0152@example.invalid,Redacted address 0152,Tiểu đường,5.88,Doctor 0152,17/03/2026
+f9cf8499-c9c1-4d45-b4ea-6b976aa415b5,Patient 0153,999000000153,REDACTED_DATE,0900000153,patient0153@example.invalid,Redacted address 0153,Huyết áp cao,3.75,Doctor 0153,24/01/2026
+4773e66a-6db2-4020-8a67-01436090103c,Patient 0154,999000000154,REDACTED_DATE,0900000154,patient0154@example.invalid,Redacted address 0154,Tim mạch,10.35,Doctor 0154,22/03/2026
+1789be63-6746-4743-897b-303d8b074d1a,Patient 0155,999000000155,REDACTED_DATE,0900000155,patient0155@example.invalid,Redacted address 0155,Khỏe mạnh,3.51,Doctor 0155,09/06/2026
+cd8565ce-83a9-4235-9ffd-4015c53f1db3,Patient 0156,999000000156,REDACTED_DATE,0900000156,patient0156@example.invalid,Redacted address 0156,Tim mạch,4.66,Doctor 0156,11/01/2026
+8ede9b46-407d-4aff-8b51-a9112d90e4ee,Patient 0157,999000000157,REDACTED_DATE,0900000157,patient0157@example.invalid,Redacted address 0157,Huyết áp cao,8.62,Doctor 0157,24/02/2026
+61a451ff-700b-4b43-ad3b-9d13c3e90323,Patient 0158,999000000158,REDACTED_DATE,0900000158,patient0158@example.invalid,Redacted address 0158,Tim mạch,10.19,Doctor 0158,28/01/2026
+9dec2b83-3885-4f7e-af1a-25a829344e15,Patient 0159,999000000159,REDACTED_DATE,0900000159,patient0159@example.invalid,Redacted address 0159,Tiểu đường,6.21,Doctor 0159,14/01/2026
+7c6166df-515a-4b43-b189-1f48e66e2c11,Patient 0160,999000000160,REDACTED_DATE,0900000160,patient0160@example.invalid,Redacted address 0160,Tim mạch,5.25,Doctor 0160,22/01/2026
+14fc3a5d-9b4b-4377-a542-deb92cff45f8,Patient 0161,999000000161,REDACTED_DATE,0900000161,patient0161@example.invalid,Redacted address 0161,Khỏe mạnh,5.2,Doctor 0161,08/04/2026
+5d264b1b-6593-4659-972e-8c6882aa5c46,Patient 0162,999000000162,REDACTED_DATE,0900000162,patient0162@example.invalid,Redacted address 0162,Tiểu đường,5.74,Doctor 0162,11/04/2026
+635a11f2-5c7a-483d-8a9d-2704e860bcb1,Patient 0163,999000000163,REDACTED_DATE,0900000163,patient0163@example.invalid,Redacted address 0163,Huyết áp cao,7.55,Doctor 0163,27/03/2026
+83b8fa05-13bc-4dc6-bae0-acdb2a6524af,Patient 0164,999000000164,REDACTED_DATE,0900000164,patient0164@example.invalid,Redacted address 0164,Huyết áp cao,10.59,Doctor 0164,26/04/2026
+833c8f55-a129-4fa2-a27d-4660293fc266,Patient 0165,999000000165,REDACTED_DATE,0900000165,patient0165@example.invalid,Redacted address 0165,Tiểu đường,11.36,Doctor 0165,04/06/2026
+2e8ff5a8-c47a-4b7e-9209-383b95284c0a,Patient 0166,999000000166,REDACTED_DATE,0900000166,patient0166@example.invalid,Redacted address 0166,Khỏe mạnh,11.06,Doctor 0166,09/05/2026
+8a0ea57a-9a7d-409d-a6e8-790b215d3b1f,Patient 0167,999000000167,REDACTED_DATE,0900000167,patient0167@example.invalid,Redacted address 0167,Tiểu đường,5.1,Doctor 0167,21/03/2026
+b58ac738-0166-4221-b063-ae7f41ff81d1,Patient 0168,999000000168,REDACTED_DATE,0900000168,patient0168@example.invalid,Redacted address 0168,Tiểu đường,7.38,Doctor 0168,22/03/2026
+7b8301cf-8ebc-4d7e-88a6-5b858d56bff6,Patient 0169,999000000169,REDACTED_DATE,0900000169,patient0169@example.invalid,Redacted address 0169,Tim mạch,9.87,Doctor 0169,04/05/2026
+d2c0dec2-1751-44d7-8deb-2696015aba1d,Patient 0170,999000000170,REDACTED_DATE,0900000170,patient0170@example.invalid,Redacted address 0170,Huyết áp cao,5.65,Doctor 0170,02/06/2026
+b2cd9a0a-840c-4cb0-82b3-43849979cf26,Patient 0171,999000000171,REDACTED_DATE,0900000171,patient0171@example.invalid,Redacted address 0171,Tim mạch,6.04,Doctor 0171,09/03/2026
+46c937e0-d0c5-4550-b69a-053958f42098,Patient 0172,999000000172,REDACTED_DATE,0900000172,patient0172@example.invalid,Redacted address 0172,Tim mạch,11.21,Doctor 0172,13/05/2026
+dcad8ec2-963a-4333-a582-95dc75f1c654,Patient 0173,999000000173,REDACTED_DATE,0900000173,patient0173@example.invalid,Redacted address 0173,Huyết áp cao,11.55,Doctor 0173,02/03/2026
+92ded495-e4f1-48e8-b7f3-f32b5a81762a,Patient 0174,999000000174,REDACTED_DATE,0900000174,patient0174@example.invalid,Redacted address 0174,Huyết áp cao,7.75,Doctor 0174,06/04/2026
+e5a1c6e4-e188-4146-bc40-a3d4e5eb4549,Patient 0175,999000000175,REDACTED_DATE,0900000175,patient0175@example.invalid,Redacted address 0175,Tiểu đường,7.34,Doctor 0175,11/05/2026
+19ca9c1b-94bc-447a-a122-318935f3de4a,Patient 0176,999000000176,REDACTED_DATE,0900000176,patient0176@example.invalid,Redacted address 0176,Huyết áp cao,3.65,Doctor 0176,06/06/2026
+db370ca7-6ea5-4341-8e2a-c3ff3c5dba42,Patient 0177,999000000177,REDACTED_DATE,0900000177,patient0177@example.invalid,Redacted address 0177,Khỏe mạnh,11.05,Doctor 0177,20/02/2026
+8eb7c306-8f73-498e-9c3d-0d5f5c6801d6,Patient 0178,999000000178,REDACTED_DATE,0900000178,patient0178@example.invalid,Redacted address 0178,Tiểu đường,8.55,Doctor 0178,23/03/2026
+679f2f42-9256-4707-9cc0-5b67a19b224a,Patient 0179,999000000179,REDACTED_DATE,0900000179,patient0179@example.invalid,Redacted address 0179,Huyết áp cao,7.06,Doctor 0179,09/05/2026
+b360dfaa-be6e-4d47-b0c0-804b406bf02d,Patient 0180,999000000180,REDACTED_DATE,0900000180,patient0180@example.invalid,Redacted address 0180,Huyết áp cao,9.35,Doctor 0180,26/01/2026
+075072d6-2bac-4712-96a9-19e886d895e5,Patient 0181,999000000181,REDACTED_DATE,0900000181,patient0181@example.invalid,Redacted address 0181,Tiểu đường,10.41,Doctor 0181,13/03/2026
+4db6f475-27dd-4ac4-8282-b6e46986305a,Patient 0182,999000000182,REDACTED_DATE,0900000182,patient0182@example.invalid,Redacted address 0182,Khỏe mạnh,6.9,Doctor 0182,19/05/2026
+d413c850-63c4-476d-a55f-a725bcb3c168,Patient 0183,999000000183,REDACTED_DATE,0900000183,patient0183@example.invalid,Redacted address 0183,Tiểu đường,10.83,Doctor 0183,30/01/2026
+05aa5eab-88f3-47ea-b83f-52740cb4afe1,Patient 0184,999000000184,REDACTED_DATE,0900000184,patient0184@example.invalid,Redacted address 0184,Huyết áp cao,7.6,Doctor 0184,16/04/2026
+e54c8739-3133-439e-ae7d-952b785b8a07,Patient 0185,999000000185,REDACTED_DATE,0900000185,patient0185@example.invalid,Redacted address 0185,Khỏe mạnh,6.93,Doctor 0185,12/04/2026
+a3760c2d-7b31-4cdc-80d9-1a8e1f44aa88,Patient 0186,999000000186,REDACTED_DATE,0900000186,patient0186@example.invalid,Redacted address 0186,Tim mạch,11.07,Doctor 0186,08/04/2026
+56a2d49d-9e5f-4273-af9a-116817661795,Patient 0187,999000000187,REDACTED_DATE,0900000187,patient0187@example.invalid,Redacted address 0187,Tim mạch,8.16,Doctor 0187,06/02/2026
+59008d65-8b2a-4759-afc6-c4e691135d7e,Patient 0188,999000000188,REDACTED_DATE,0900000188,patient0188@example.invalid,Redacted address 0188,Tiểu đường,10.06,Doctor 0188,12/04/2026
+8d2cfe83-c407-4654-bf5f-61aaaee7c7a5,Patient 0189,999000000189,REDACTED_DATE,0900000189,patient0189@example.invalid,Redacted address 0189,Tim mạch,7.78,Doctor 0189,12/02/2026
+03599c6d-1224-4bd2-b7c4-b3ee9b1fc6d1,Patient 0190,999000000190,REDACTED_DATE,0900000190,patient0190@example.invalid,Redacted address 0190,Tim mạch,9.34,Doctor 0190,13/04/2026
+a0154d65-91ed-454a-bfae-ef01a8290f3c,Patient 0191,999000000191,REDACTED_DATE,0900000191,patient0191@example.invalid,Redacted address 0191,Tiểu đường,9.2,Doctor 0191,16/02/2026
+60042231-36c3-4e85-8bae-295e902a405c,Patient 0192,999000000192,REDACTED_DATE,0900000192,patient0192@example.invalid,Redacted address 0192,Tim mạch,9.39,Doctor 0192,31/01/2026
+e3be7ca0-5df9-44fb-83d6-43ed236eb832,Patient 0193,999000000193,REDACTED_DATE,0900000193,patient0193@example.invalid,Redacted address 0193,Huyết áp cao,11.86,Doctor 0193,18/06/2026
+3a0a2b59-c538-4872-9eaa-543e1edbbe71,Patient 0194,999000000194,REDACTED_DATE,0900000194,patient0194@example.invalid,Redacted address 0194,Tim mạch,8.57,Doctor 0194,25/05/2026
+4336ffe5-6631-46a7-8c53-b74c0c9fa6e6,Patient 0195,999000000195,REDACTED_DATE,0900000195,patient0195@example.invalid,Redacted address 0195,Huyết áp cao,11.01,Doctor 0195,24/03/2026
+521be8c2-30c3-4f8a-992a-b43d5d822e3a,Patient 0196,999000000196,REDACTED_DATE,0900000196,patient0196@example.invalid,Redacted address 0196,Khỏe mạnh,5.68,Doctor 0196,02/04/2026
+bd717da3-3581-4632-94f5-df7005d2d205,Patient 0197,999000000197,REDACTED_DATE,0900000197,patient0197@example.invalid,Redacted address 0197,Huyết áp cao,10.85,Doctor 0197,08/05/2026
+637e3f94-110c-4d92-8222-305df1f71605,Patient 0198,999000000198,REDACTED_DATE,0900000198,patient0198@example.invalid,Redacted address 0198,Khỏe mạnh,6.8,Doctor 0198,18/03/2026
+58c69158-04b4-4ac9-a831-7f0dbe9063fb,Patient 0199,999000000199,REDACTED_DATE,0900000199,patient0199@example.invalid,Redacted address 0199,Khỏe mạnh,6.74,Doctor 0199,16/04/2026
+2379c05f-a708-4280-b4ee-0b6721bbd183,Patient 0200,999000000200,REDACTED_DATE,0900000200,patient0200@example.invalid,Redacted address 0200,Khỏe mạnh,8.07,Doctor 0200,21/01/2026

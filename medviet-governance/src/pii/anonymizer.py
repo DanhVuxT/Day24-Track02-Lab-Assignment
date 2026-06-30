@@ -1,93 +1,130 @@
-# src/pii/anonymizer.py
+import hashlib
+import secrets
+
 import pandas as pd
-from presidio_anonymizer import AnonymizerEngine
-from presidio_anonymizer.entities import OperatorConfig
 from faker import Faker
+
 from .detector import build_vietnamese_analyzer, detect_pii
 
 fake = Faker("vi_VN")
+Faker.seed(42)
+
 
 class MedVietAnonymizer:
-
     def __init__(self):
         self.analyzer = build_vietnamese_analyzer()
-        self.anonymizer = AnonymizerEngine()
 
     def anonymize_text(self, text: str, strategy: str = "replace") -> str:
-        """
-        TODO: Anonymize text với strategy được chọn.
-
-        Strategies:
-        - "mask"    : Nguyen Van A → N****** V** A
-        - "replace" : thay bằng fake data (dùng Faker)
-        - "hash"    : SHA-256 one-way hash
-        - "generalize": chỉ dùng cho tuổi/năm sinh
-        """
-        results = detect_pii(text, self.analyzer)
+        value = "" if text is None else str(text)
+        results = detect_pii(value, self.analyzer)
         if not results:
-            return text
+            return value
 
-        # TODO: implement operators dict dựa trên strategy
-        operators = {}
-
-        if strategy == "replace":
-            operators = {
-                "PERSON": OperatorConfig("replace", 
-                          {"new_value": fake.name()}),
-                "EMAIL_ADDRESS": OperatorConfig("replace", 
-                                 {"new_value": ___}),   # TODO: fake email
-                "VN_CCCD": OperatorConfig("replace", 
-                           {"new_value": ___}),          # TODO: fake CCCD
-                "VN_PHONE": OperatorConfig("replace", 
-                            {"new_value": ___}),         # TODO: fake phone
-            }
-        elif strategy == "mask":
-            # TODO: implement masking
-            pass
-        elif strategy == "hash":
-            # TODO: implement hashing dùng sha256
-            pass
-
-        anonymized = self.anonymizer.anonymize(
-            text=text,
-            analyzer_results=results,
-            operators=operators
-        )
-        return anonymized.text
+        output = value
+        for result in sorted(results, key=lambda item: item.start, reverse=True):
+            original = output[result.start:result.end]
+            if strategy == "replace":
+                replacement = self._replacement_for(result.entity_type)
+            elif strategy == "mask":
+                replacement = self._mask(original)
+            elif strategy == "hash":
+                replacement = hashlib.sha256(original.encode("utf-8")).hexdigest()
+            else:
+                raise ValueError(f"Unsupported anonymization strategy: {strategy}")
+            output = output[:result.start] + replacement + output[result.end:]
+        return output
 
     def anonymize_dataframe(self, df: pd.DataFrame) -> pd.DataFrame:
-        """
-        TODO: Anonymize toàn bộ DataFrame.
-        - Cột text (ho_ten, dia_chi, email): dùng anonymize_text()
-        - Cột cccd, so_dien_thoai: replace trực tiếp bằng fake data
-        - Cột benh, ket_qua_xet_nghiem: GIỮ NGUYÊN (cần cho model training)
-        - Cột patient_id: GIỮ NGUYÊN (pseudonym đã đủ an toàn)
-        """
         df_anon = df.copy()
 
-        # TODO: Xử lý từng cột PII
-        # Gợi ý: dùng df.apply() hoặc list comprehension
+        if "ho_ten" in df_anon.columns:
+            df_anon["ho_ten"] = [f"Patient {i:04d}" for i in range(1, len(df_anon) + 1)]
+        if "email" in df_anon.columns:
+            df_anon["email"] = [
+                f"patient{i:04d}@example.invalid" for i in range(1, len(df_anon) + 1)
+            ]
+        if "dia_chi" in df_anon.columns:
+            df_anon["dia_chi"] = [
+                f"Redacted address {i:04d}" for i in range(1, len(df_anon) + 1)
+            ]
+        if "bac_si_phu_trach" in df_anon.columns:
+            df_anon["bac_si_phu_trach"] = [
+                f"Doctor {i:04d}" for i in range(1, len(df_anon) + 1)
+            ]
+        if "ngay_sinh" in df_anon.columns:
+            df_anon["ngay_sinh"] = "REDACTED_DATE"
+        if "cccd" in df_anon.columns:
+            original_cccd = set(df["cccd"].astype(str))
+            df_anon["cccd"] = [
+                self._indexed_cccd(i, original_cccd) for i in range(1, len(df_anon) + 1)
+            ]
+        if "so_dien_thoai" in df_anon.columns:
+            original_phones = set(df["so_dien_thoai"].astype(str))
+            df_anon["so_dien_thoai"] = [
+                self._indexed_phone(i, original_phones) for i in range(1, len(df_anon) + 1)
+            ]
 
         return df_anon
 
-    def calculate_detection_rate(self, 
-                                  original_df: pd.DataFrame,
-                                  pii_columns: list) -> float:
-        """
-        TODO: Tính % PII được detect thành công.
-        Mục tiêu: > 95%
-
-        Logic: với mỗi ô trong pii_columns,
-               kiểm tra xem detect_pii() có tìm thấy ít nhất 1 entity không.
-        """
+    def calculate_detection_rate(self, original_df: pd.DataFrame, pii_columns: list) -> float:
         total = 0
         detected = 0
 
         for col in pii_columns:
             for value in original_df[col].astype(str):
                 total += 1
-                results = detect_pii(value, self.analyzer)
-                if len(results) > 0:
+                if detect_pii(value, self.analyzer):
                     detected += 1
 
         return detected / total if total > 0 else 0.0
+
+    @staticmethod
+    def _fake_cccd() -> str:
+        return "".join(str(secrets.randbelow(10)) for _ in range(12))
+
+    @staticmethod
+    def _fake_phone() -> str:
+        return "0" + secrets.choice(["3", "5", "7", "8", "9"]) + "".join(
+            str(secrets.randbelow(10)) for _ in range(8)
+        )
+
+    def _fake_cccd_excluding(self, blocked: set[str]) -> str:
+        value = self._fake_cccd()
+        while value in blocked:
+            value = self._fake_cccd()
+        return value
+
+    def _fake_phone_excluding(self, blocked: set[str]) -> str:
+        value = self._fake_phone()
+        while value in blocked:
+            value = self._fake_phone()
+        return value
+
+    @staticmethod
+    def _indexed_cccd(index: int, blocked: set[str]) -> str:
+        value = f"999{index:09d}"
+        if value in blocked:
+            value = f"998{index:09d}"
+        return value
+
+    @staticmethod
+    def _indexed_phone(index: int, blocked: set[str]) -> str:
+        value = f"09{index:08d}"
+        if value in blocked:
+            value = f"08{index:08d}"
+        return value
+
+    def _replacement_for(self, entity_type: str) -> str:
+        replacements = {
+            "PERSON": fake.name(),
+            "EMAIL_ADDRESS": fake.email(),
+            "VN_CCCD": self._fake_cccd(),
+            "VN_PHONE": self._fake_phone(),
+        }
+        return replacements.get(entity_type, "[REDACTED]")
+
+    @staticmethod
+    def _mask(value: str) -> str:
+        if len(value) <= 2:
+            return "*" * len(value)
+        return value[0] + ("*" * (len(value) - 2)) + value[-1]

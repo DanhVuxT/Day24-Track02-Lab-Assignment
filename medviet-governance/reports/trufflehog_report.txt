@@ -1,0 +1,4 @@
+TruffleHog was not installed in this environment, so the verified secrets scan could not be executed here.
+
+Install TruffleHog and run:
+trufflehog git file://. --only-verified > reports/trufflehog_report.txt
